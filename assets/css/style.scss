@@ -71,11 +71,7 @@ a.active {
 .main-content blockquote > :first-child { margin-top: 0; }
 .main-content blockquote > :last-child { margin-bottom: 0; }
 
-// .main-content blockquote {
-//   width:auto;
-//   display:table; 
-//   text-align: center; 
-// }
+
 footer {
   text-align: center;
 }
@@ -101,11 +97,12 @@ footer {
   flex-wrap: wrap;
 }
 
-.jekyll-twitter-plugin {
-  border : 1px solid rgba(21, 87, 153, 0.2);
-  border-radius : 3px;
-  z-index: -100;
-}
+// .twitter-tweet {
+//   border : 1px solid rgba(21, 87, 153, 0.2);
+//   border-radius : 3px;
+//   z-index: -100;
+//   font-size: 0.9em;
+// }
 
 .recentpost {
   padding: 13px;
@@ -121,7 +118,7 @@ footer {
 
 .recentpost h3{
   color: rgb(20, 20, 20);
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .recentpost p{
@@ -132,6 +129,7 @@ footer {
   font-size : 0.9em;
   text-align: center;
   color: #155799;
+  margin: 0;
 }
 
 .textlink a{

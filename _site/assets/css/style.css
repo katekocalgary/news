@@ -363,17 +363,15 @@ footer { text-align: center; }
 @media screen and (max-width: 42em) { .page-header { padding: 0.5em 1rem 1rem; } }
 .main-wrap { display: flex; justify-content: space-around; flex-wrap: wrap; }
 
-.jekyll-twitter-plugin { border: 1px solid rgba(21, 87, 153, 0.2); border-radius: 3px; z-index: -100; }
-
 .recentpost { padding: 13px; width: 380px; font-size: 0.8em; border: 0.5px solid rgba(21, 87, 153, 0.2); border-radius: 3px; }
 
 .recentpost ul { padding-inline-start: 0px; }
 
-.recentpost h3 { color: #141414; font-size: 1.2em; }
+.recentpost h3 { color: #141414; font-size: 1em; }
 
 .recentpost p { text-align: center; }
 
-.textlink { font-size: 0.9em; text-align: center; color: #155799; }
+.textlink { font-size: 0.9em; text-align: center; color: #155799; margin: 0; }
 
 .textlink a { text-decoration: none; }
 
