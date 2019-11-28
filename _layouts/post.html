@@ -10,7 +10,7 @@
                 <h2><a href="/news{{ post.url }}"> {{ post.title }}</a></h2>
               </div>
               <p>{{ post.description }}</p>
-              <div class="date">{{ post.date }}</div>
+              <div class="date">{{ post.date | date_to_string }}</div>
               <hr id="line">
             </li>
           {% endfor %}

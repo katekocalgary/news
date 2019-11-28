@@ -15,7 +15,7 @@
                 <h2><a href="/news{{ post.url }}"> {{ post.title }}</a></h2>
                 <p>{{ post.description }}</p>
                 <p><img src="{{ post.img }}" alt="{{ post.imgtitle }}" class="mainimg"></p>
-                <p class="date">{{ post.date }}</p>
+                <p class="date">{{ post.date | date_to_string }}</p>
                 <hr id="line">
                 <div class="textlink"><a href="/news/notice/" >More blog</a></div>               
               </li>

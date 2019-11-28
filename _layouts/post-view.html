@@ -19,7 +19,7 @@
         <div class="viewimg"><img src="{{ page.img }}" alt="{{ page.imgtitle }}"></div>
         <p>{{ content }}</p>
       </div>
-      <p><em>{{ page.date }}</em></p>
+      <p><em>{{ page.date | date_to_string }}</em></p>
       <hr id="line">
 
       {% include footer.html %}
